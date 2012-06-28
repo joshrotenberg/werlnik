@@ -1,0 +1,12 @@
+{application, werlnik,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { werlnik_app, []}},
+  {env, []}
+ ]}.
